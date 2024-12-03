@@ -31,7 +31,7 @@ option_tags = state_tag.find_elements(By.CSS_SELECTOR, "optgroup[label='State'] 
 option_list = [tag.text for tag in option_tags]
 select_1 = Select(state_tag)
 sleep(1)
-for option in tqdm(option_list[30:], desc= "State is scrapping...", ncols = 100, total = len(option_list), colour='blue'):
+for option in tqdm(option_list, desc= "State is scrapping...", ncols = 100, total = len(option_list), colour='blue'):
     select_1.select_by_visible_text(option)
     sleep(1)
     county_ = WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.ID, "county")))
