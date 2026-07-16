@@ -73,7 +73,7 @@ project/
 Clone the repository
 
 ```bash
-git clone [https://github.com/yourusername/dealer-web-scraper.git](https://github.com/EmirSalkin/WebScrapping_2.git)
+git clone https://github.com/EmirSalkin/WebScrapping_2.git
 ```
 
 Install dependencies
