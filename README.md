@@ -147,7 +147,7 @@ The scraper collects:
 Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/dealer-web-scraper.git
+git clone https://github.com/EmirSalkin/WebScrapping_2.git
 ```
 
 Move into the project directory
